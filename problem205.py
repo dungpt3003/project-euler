@@ -27,7 +27,7 @@ def sum_of_list(lst):
     """
     Return sum of all elements in a list
 
-    Test
+    Test:
     >>> sum_of_list([1, 2, 1, 3, 4])
     11
     """
@@ -93,6 +93,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+    import doctest
+    doctest.testmod()
     total_outcome = (4 ** 9) * (6 ** 6)
     total_pyrwin = pyramidal_win(PYRAMIDAL, CUBE)
     print total_pyrwin / float(total_outcome)
